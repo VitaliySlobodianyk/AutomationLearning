@@ -1,2 +1,2 @@
 # AutomationLearning
-Repositoey for learning C# Test Automation
+Repository for learning C# Test Automation
