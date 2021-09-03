@@ -1,0 +1,13 @@
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\bin\Debug\netcoreapp3.1\VSHomework3.exe
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\bin\Debug\netcoreapp3.1\VSHomework3.deps.json
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\bin\Debug\netcoreapp3.1\VSHomework3.runtimeconfig.json
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\bin\Debug\netcoreapp3.1\VSHomework3.runtimeconfig.dev.json
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\bin\Debug\netcoreapp3.1\VSHomework3.dll
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\bin\Debug\netcoreapp3.1\VSHomework3.pdb
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\obj\Debug\netcoreapp3.1\VSHomework3.csproj.AssemblyReference.cache
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\obj\Debug\netcoreapp3.1\VSHomework3.AssemblyInfoInputs.cache
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\obj\Debug\netcoreapp3.1\VSHomework3.AssemblyInfo.cs
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\obj\Debug\netcoreapp3.1\VSHomework3.csproj.CoreCompileInputs.cache
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\obj\Debug\netcoreapp3.1\VSHomework3.dll
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\obj\Debug\netcoreapp3.1\VSHomework3.pdb
+C:\Users\vitalii.slobodianyk\Desktop\AutomationLearning\VSHomework3\obj\Debug\netcoreapp3.1\VSHomework3.genruntimeconfig.cache
