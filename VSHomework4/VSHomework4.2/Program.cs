@@ -5,15 +5,13 @@ namespace VSHomework4._2
 {
     class Program
     {
-       
-      
         static void Main(string[] args)
         {
             //Task01();
             //Task02();
-            //Task03();
+              Task03();
             //Task04();
-            Task05();
+            //Task05();
         }
 
         // 1- Write a program to count how many numbers between 1 and 100 are divisible by 3 with no remainder.Display the count on the console.
@@ -35,7 +33,6 @@ namespace VSHomework4._2
             Console.WriteLine($"Number of divisible by {numberToFindDivisibles} elements in range {lowerBound}-{upperBound} = {divisibleCount}");
 
         }
-
 
         // 2- Write a program and continuously ask the user to enter a number or "ok" to exit. Calculate the sum of all the previously entered numbers and display it on the console.
         public static void Task02()
@@ -68,14 +65,12 @@ namespace VSHomework4._2
         //Write a program and ask the user to enter a number.Compute the factorial of the number and print it on the console. For example, if the user enters 5, the program should calculate 5 x 4 x 3 x 2 x 1 and display it as 5! = 120.
         public static void Task03()
         {
-
             long factorialResult = 1;
-
+            
             Console.WriteLine("Enter a number for factorial calculation:");
-
-            int factorialBase;
-            Int32.TryParse(Console.ReadLine(), out factorialBase);
-            if (factorialBase != 0)
+           
+            int factorialBase;         
+            if (Int32.TryParse(Console.ReadLine(), out factorialBase))
             {
                 for (int i = 2; i <= factorialBase; i++)
                 {
@@ -107,7 +102,7 @@ namespace VSHomework4._2
                 int randomizedNumber = random.Next(minValue, maxValue + 1);
                 bool numbersAreEqual = false;
                 Console.Clear();
-                Console.WriteLine($"Randomized number: {randomizedNumber}");
+                Console.WriteLine($"Randomized number: {randomizedNumber}"); // For testing 
                 for (int i = 0; i < chancesAmount && !numbersAreEqual; i++)
                 {
 
@@ -149,12 +144,11 @@ namespace VSHomework4._2
         // 5- Write a program and ask the user to enter a series of numbers separated by comma.Find the maximum of the numbers and display it on the console.For example, if the user enters “5, 3, 8, 1, 4", the program should display 8. 
         public static void Task05()
         {
+            Console.WriteLine("Enter Sequence of numbers separated by comma:");
 
-            string str = "1,2,3,33,45,65";
+            string str = Console.ReadLine();
 
             int index = 0;
-
-            List<int> numbers = new List<int>();
 
             int maxNumber = Int32.MinValue;
 
@@ -170,18 +164,19 @@ namespace VSHomework4._2
 
                 if (parsedNumber != String.Empty)
                 {
-                    numbers.Add(Int32.Parse(parsedNumber));
+                    int convertedNumber = Int32.Parse(parsedNumber);
+
+                    if (convertedNumber > maxNumber) {
+                        maxNumber = convertedNumber;
+                    }
                 }
                 else
                 {
                     index++;
                 }
-
-
             }
-
-            numbers.ForEach(number => Console.Write(number + " "));
-
+            Console.WriteLine($"Biggest Number in \n {str} sequence \n is {maxNumber}");
+           
         }
 
     }
